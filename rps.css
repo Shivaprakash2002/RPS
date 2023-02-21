@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+}
+body{
+    background:rgb(12, 0, 11);
+    font-size: 2rem;
+    color:rgb(244, 242, 241);
+    text-shadow: 2px 1px white,2px 3px rgb(1, 10, 3);
+}
+.container1{
+    display: flex;
+    padding: 0.9em;
+    gap: 1em;
+    justify-content: center;
+}
+button:hover,button{
+     cursor: pointer;
+     border-radius: 1em 0.5em 0.5em 1em;
+     border: 0.2rem solid rgb(104, 191, 217);
+     background-color: rgb(3, 55, 59);
+     font-size: 2rem;
+}
+#header{
+    margin:6em auto 2em;
+    display: flex;
+    justify-content: center;
+}
+#result{
+    display: flex;
+    justify-content: center;
+    font-size:1rem;
+}.player{
+    display: flex;
+    justify-content: center;
+    font-size:2rem;
+}
+
+
